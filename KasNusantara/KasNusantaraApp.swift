@@ -6,6 +6,10 @@
 //
 
 import SwiftUI
+<<<<<<< HEAD
+=======
+import SwiftData
+>>>>>>> aba7f9b (Initial Commit)
 
 @main
 struct KasNusantaraApp: App {
@@ -13,5 +17,9 @@ struct KasNusantaraApp: App {
         WindowGroup {
             ContentView()
         }
+<<<<<<< HEAD
+=======
+        .modelContainer(for: [UserData.self])
+>>>>>>> aba7f9b (Initial Commit)
     }
 }
